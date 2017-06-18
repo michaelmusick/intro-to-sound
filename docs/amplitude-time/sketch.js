@@ -26,7 +26,7 @@ function setup() {
   mic.start();
 
   // load the sound, but don't play it yet
-  soundFile = loadSound('../../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3')
+  soundFile = loadSound('../music/CareFreeLove.mp3')
 
   amplitude = new p5.Amplitude();
   amplitude.setInput(mic);

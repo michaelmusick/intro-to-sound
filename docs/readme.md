@@ -2,9 +2,17 @@
 
 These are live examples for introductory talks about "what is sound".
 
+**NOTE:** Use Google Chrome or another browser that supports "Audio In".
+
 # Links
 
 - [amplitude over time](./amplitude-time/)
+
+
+<br />
+<br />
+<br />
+
 
 # Attributions
 
