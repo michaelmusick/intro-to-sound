@@ -38,7 +38,7 @@ function setup() {
   analyzer.setInput(mic);
 
   // load the soundfile in setup, but we won't play it until user hits "T"
-  soundFile = loadSound('../../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3');
+  soundFile = loadSound('../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3');
 }
 
 function draw() {

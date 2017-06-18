@@ -17,7 +17,7 @@ function setup() {
   // make canvas drag'n'dropablle with gotFile as the callback
   makeDragAndDrop(cnv, gotFile);
 
-  soundFile = loadSound('../../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3')
+  soundFile = loadSound('../music/Broke_For_Free_-_01_-_As_Colorful_As_Ever.mp3')
   mic = new p5.AudioIn();
   osc = new p5.Oscillator();
   osc.amp(0.5);
