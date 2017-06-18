@@ -10,7 +10,7 @@ These are live examples for introductory talks about "what is sound".
 - [Time Domain Oscilloscope](./time-domain-scope/)
 - [Freq Scope](./fft-freq-scope/)
 - [Spectrograph over Time](./fft-spectrograph-time/)
--
+
 
 <br />
 <br />

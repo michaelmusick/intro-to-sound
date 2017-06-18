@@ -1,6 +1,7 @@
 
 s.scope;
 s.freqscope;
+s.plotTree;
 
 (
 /* Human Hearing Listening Test */
@@ -21,3 +22,39 @@ s.freqscope;
 }.play;
 )
 
+
+
+// Building Complex Waves
+(
+// Initialize
+~harm = 1;
+~basefreq = 100;
+)
+(
+{
+
+	var sig;
+	sig = SinOsc.ar( freq: 300.1 , mul: 1 );
+	(sig ! 2) * 0.25
+}.play;
+)
+
+
+(
+// Square Wave | Initialize
+~num = 1;
+~basefreq = 100;
+
+~num.do({
+	arg harm, nn;
+	harm = harm + 1;
+
+	{
+		var sig;
+		sig = SinOsc.ar(~basefreq * harm , mul: 1 / harm );
+		(sig ! 2) * 0.1
+	}.play;
+
+})
+
+)
