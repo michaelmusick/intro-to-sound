@@ -6,6 +6,7 @@ These are live examples for introductory talks about "what is sound".
 
 # Links
 
+- [Sine Sweep](./sine-sweep/)
 - [amplitude over time](./amplitude-time/)
 - [Time Domain Oscilloscope](./time-domain-scope/)
 - [Freq Scope](./fft-freq-scope/)

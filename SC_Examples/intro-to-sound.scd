@@ -26,11 +26,6 @@ s.plotTree;
 
 // Building Complex Waves
 (
-// Initialize
-~harm = 1;
-~basefreq = 100;
-)
-(
 {
 
 	var sig;
@@ -42,18 +37,19 @@ s.plotTree;
 
 (
 // Square Wave | Initialize
-~num = 1;
+~num = 10;
 ~basefreq = 100;
+~harm = 1;
 
 ~num.do({
-	arg harm, nn;
-	harm = harm + 1;
 
 	{
 		var sig;
-		sig = SinOsc.ar(~basefreq * harm , mul: 1 / harm );
-		(sig ! 2) * 0.1
+		sig = SinOsc.ar(~basefreq * ~harm , mul: 1 / ~harm );
+		(sig ! 2) * 0.5
 	}.play;
+
+	~harm = ~harm + 2;
 
 })
 
